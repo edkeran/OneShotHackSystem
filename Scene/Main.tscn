@@ -1,0 +1,89 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Scene/Main.gd" type="Script" id=1]
+[ext_resource path="res://DesktopImages/3.bmp" type="Texture" id=2]
+[ext_resource path="res://DesktopImages/1.bmp" type="Texture" id=3]
+[ext_resource path="res://DesktopImages/2.bmp" type="Texture" id=4]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="MenuTest" type="CanvasLayer" parent="."]
+
+[node name="Panel" type="Panel" parent="MenuTest"]
+margin_left = -1.0
+margin_right = 1025.0
+margin_bottom = 602.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="SaludoPanel" type="Label" parent="MenuTest/Panel"]
+margin_left = 428.71
+margin_top = 22.6877
+margin_right = 603.71
+margin_bottom = 159.688
+
+[node name="Button" type="Button" parent="MenuTest/Panel"]
+margin_left = 429.859
+margin_top = 344.497
+margin_right = 643.859
+margin_bottom = 423.497
+text = "Cambiar Fondo De Escritorio"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button2" type="Button" parent="MenuTest/Panel"]
+margin_left = 377.0
+margin_top = 452.0
+margin_right = 700.0
+margin_bottom = 555.0
+text = "Dejar Fondo Anterior"
+
+[node name="Imagen1" type="TextureButton" parent="MenuTest/Panel"]
+margin_left = 26.0
+margin_top = 146.0
+margin_right = 242.0
+margin_bottom = 327.0
+texture_normal = ExtResource( 3 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Imagen2" type="TextureButton" parent="MenuTest/Panel"]
+margin_left = 346.0
+margin_top = 141.0
+margin_right = 561.0
+margin_bottom = 326.0
+texture_normal = ExtResource( 4 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Imagen3" type="TextureButton" parent="MenuTest/Panel"]
+margin_left = 655.0
+margin_top = 134.0
+margin_right = 901.0
+margin_bottom = 339.0
+texture_normal = ExtResource( 2 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button3" type="Button" parent="MenuTest/Panel"]
+margin_left = 63.0
+margin_top = 411.0
+margin_right = 199.0
+margin_bottom = 466.0
+text = "Guardar Imagen Actual"
+
+[connection signal="pressed" from="MenuTest/Panel/Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="MenuTest/Panel/Button2" to="." method="_on_Button2_pressed"]
+[connection signal="pressed" from="MenuTest/Panel/Imagen1" to="." method="_on_Imagen1_pressed"]
+[connection signal="pressed" from="MenuTest/Panel/Imagen2" to="." method="_on_Imagen2_pressed"]
+[connection signal="pressed" from="MenuTest/Panel/Imagen3" to="." method="_on_Imagen3_pressed"]
+[connection signal="pressed" from="MenuTest/Panel/Button3" to="." method="_on_Button3_pressed"]

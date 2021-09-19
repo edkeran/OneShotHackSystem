@@ -1,0 +1,9 @@
+C:\Users\edgar\Documents\WolfCat Studios\OneShotHackSystem\.mono\temp\bin\ExportRelease\One Shot Hack System.dll
+C:\Users\edgar\Documents\WolfCat Studios\OneShotHackSystem\.mono\temp\bin\ExportRelease\One Shot Hack System.pdb
+C:\Users\edgar\Documents\WolfCat Studios\OneShotHackSystem\.mono\temp\obj\ExportRelease\One Shot Hack System.csproj.AssemblyReference.cache
+C:\Users\edgar\Documents\WolfCat Studios\OneShotHackSystem\.mono\temp\obj\ExportRelease\One Shot Hack System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edgar\Documents\WolfCat Studios\OneShotHackSystem\.mono\temp\obj\ExportRelease\One Shot Hack System.AssemblyInfoInputs.cache
+C:\Users\edgar\Documents\WolfCat Studios\OneShotHackSystem\.mono\temp\obj\ExportRelease\One Shot Hack System.AssemblyInfo.cs
+C:\Users\edgar\Documents\WolfCat Studios\OneShotHackSystem\.mono\temp\obj\ExportRelease\One Shot Hack System.csproj.CoreCompileInputs.cache
+C:\Users\edgar\Documents\WolfCat Studios\OneShotHackSystem\.mono\temp\obj\ExportRelease\One Shot Hack System.dll
+C:\Users\edgar\Documents\WolfCat Studios\OneShotHackSystem\.mono\temp\obj\ExportRelease\One Shot Hack System.pdb
