@@ -2,7 +2,11 @@ extends Node2D
 
 var txtSaludoUsuario = "Hola **** Bienvenido a este sistema de 'Hackeo' "
 var desktop_image = null
-var pathImagesReal = OS.get_executable_path()+"/../"
+#For production enviroment
+#var pathImagesReal = OS.get_executable_path()+"/../"
+
+#For development eviroment
+var pathImagesReal = ProjectSettings.globalize_path("res://")
 var route_new_desktop_image = pathImagesReal + "DesktopImages/"
 var currentBmp = "1.bmp"
 
@@ -73,3 +77,8 @@ func _on_Imagen3_pressed():
 
 func _on_Button3_pressed():
 	desktop_image = get_current_desktop_image()
+
+
+func _on_Button4_pressed():
+	get_tree().change_scene("res://Scene/OutScreen.tscn")
+

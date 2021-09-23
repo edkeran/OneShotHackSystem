@@ -81,9 +81,20 @@ margin_right = 199.0
 margin_bottom = 466.0
 text = "Guardar Imagen Actual"
 
+[node name="Button4" type="Button" parent="MenuTest/Panel"]
+margin_left = 62.0
+margin_top = 481.0
+margin_right = 327.0
+margin_bottom = 561.0
+text = "Cambiar a jugador pantalla transparente"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [connection signal="pressed" from="MenuTest/Panel/Button" to="." method="_on_Button_pressed"]
 [connection signal="pressed" from="MenuTest/Panel/Button2" to="." method="_on_Button2_pressed"]
 [connection signal="pressed" from="MenuTest/Panel/Imagen1" to="." method="_on_Imagen1_pressed"]
 [connection signal="pressed" from="MenuTest/Panel/Imagen2" to="." method="_on_Imagen2_pressed"]
 [connection signal="pressed" from="MenuTest/Panel/Imagen3" to="." method="_on_Imagen3_pressed"]
 [connection signal="pressed" from="MenuTest/Panel/Button3" to="." method="_on_Button3_pressed"]
+[connection signal="pressed" from="MenuTest/Panel/Button4" to="." method="_on_Button4_pressed"]
